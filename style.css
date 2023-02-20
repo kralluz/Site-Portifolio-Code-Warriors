@@ -1,26 +1,42 @@
 body { font-family:Arial, Helvetica, sans-serif;
 background-color: dimgray;
 margin: 0px;
+padding: 0px;
+border: 0px;
+
 }
 
 header {
-    background-color: white;
+    background-color: #388668;
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 0px;
+    color: white;
+    background-image:linear-gradient(to top,#1a3029,#3F5E5A,#3C7261, #3B7763, #3A7C65,#388668,#349A6F, #30AD75);)
+    background-attachment: fixed;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
+}
+
+h1, h4 {
     text-align: center;
 }
 
-#links {
+
+.links {
     text-align: left;
+    text-decoration: none;
+    color: white;
+    text-indent: 35px;
 }
 
 main {
     background-color: white;
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow:2px 2px 4px rgba(0, 0, 0,0.315);
+    margin-left: 100px;
+    margin-right: 100px;box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
+}
+
+section {
+    
 }
 
 nav {
