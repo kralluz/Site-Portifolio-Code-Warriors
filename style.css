@@ -30,6 +30,7 @@ h2{
 
 p {
     text-indent: 50px;
+    color: white;
 }
 
 .links {
@@ -40,7 +41,7 @@ p {
 }
 
 main {
-    background-color: #c8fff8;
+    background-color: #1d423d;
     padding: 10px;
     margin:25px 200px 25px 200px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
