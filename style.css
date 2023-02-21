@@ -1,5 +1,12 @@
-@import url();
+@charset "utf-8";
 
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,700&display=swap'););
+
+@font-face {
+    font-family: 'Warriors';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
 
 :root {
     --cor0:#65BFA3;
@@ -8,13 +15,14 @@
     --cor3:#9FBFB5;
     --cor4:#224036;
 
-    --font-padrão:arial,verdana,Helvetica,sans-serif;
-    --font-destaque:'Bebas Neue', cursive;
+    --font-padrão:'Roboto Mono', monospace;
+    --font-destaque:arial,verdana,Helvetica,sans-serif;
+    --font-android:'Android', cursive;
 }
 
 
 
-body { font-family:Arial, Helvetica, sans-serif;
+body { font-family:--font-destaque;
 background-color: #3F5E5A;
 margin: 0px;
 padding: 0px;
@@ -133,4 +141,11 @@ img {
     padding-right:15px;
     padding-bottom:15px;
     background-color: #1a3029;
+}
+
+#list {
+    background-color: #316b58;
+    border-radius: 5px;
+    margin-bottom: 0px;padding: 0px;
+    color:white;
 }
