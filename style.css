@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
 
+@font-face {
+    font-family:'Warriors' ;
+    src: url(pacote-projeto-d010/fontes/Robot\ Warriors.otf);
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@200&family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
 
@@ -14,7 +18,7 @@
 
     --font-padrao:'Roboto Mono', monospace;
     --font-destaque:'Labrada',monospace;
-    --font-Warriors:'Warriors', cursive;
+    --font-Warriors:'Warriors';
 }
 
 
@@ -28,16 +32,22 @@ border: 0px;
 }
 
 header {
-    font-family: var(--font-Warriors)
+    box-shadow: 7px 7px 7px rgba(0,0,0);
+    font-family: var(--font-Warriors);
     background-color: #388668;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     padding: 10px;
     margin: 0px;
     color: white;
-    background-image:linear-gradient(to bottom, #3A7C65,#3C7261, rgba(0, 0, 0, 0.753));
+    background-image:linear-gradient(to bottom, #3A7C65, rgba(0, 0, 0, 0.753));
     )
     background-attachment: fixed;
+    min-height:150px;
+    }
+
+    header h1  {
+        color: white;
     }
 
 h1, h4{
