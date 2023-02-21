@@ -4,7 +4,7 @@
 
 @font-face {
     font-family:'Warriors' ;
-    src: url(pacote-projeto-d010/fontes/Robot\ Warriors.otf);
+    src: url(pacote-projeto-d010/fontes/Mortend\ Bold.otf)
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@200&family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
@@ -40,19 +40,19 @@ header {
     padding: 10px;
     margin: 0px;
     color: white;
-    background-image:linear-gradient(to bottom, #3A7C65, rgba(0, 0, 0, 0.753));
-    )
-    background-attachment: fixed;
     min-height:150px;
+    background-attachment:fixed ;
+    background-image:linear-gradient(to bottom, #3A7C65,#000000,#000000, #000000)
     }
 
     header h1  {
         color: white;
+        font-family: var(--font-Warriors);
     }
 
 h1, h4{
     text-align: center; 
-    font-family: var(--font-Warriors);
+
 }
 
 h1, h4, h2 {
@@ -65,6 +65,10 @@ h2{
     border-top-right-radius: 5px;
     margin-bottom: 0px;padding: 0px;
     color: white;
+}
+
+header a {
+    font-family: var(--font-destaque);
 }
 
 p {
@@ -88,32 +92,31 @@ main {
 }
 
 nav {
-    background-color: darkgrey;
     padding: 3px;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0,0.315)
-    
+
 
 }
 
 nav > a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 10px;
     text-decoration: none;
-    color: white;
     font-weight: bold;
-    margin-right: 30px;
+    border-radius: 5%;
+    margin: auto;
 }
 
 nav > a:hover {
-    text-decoration: underline;
+    background-color: var(--cor2);
+    color:white  ;
 }
 
 article {
     background-color: lightgray;
 }
 
-article > aside {
-    background-color: rgb(139, 138, 138);
-}
 
 footer {
     background-color: #1a3029;
