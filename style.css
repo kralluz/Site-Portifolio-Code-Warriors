@@ -10,7 +10,7 @@ header {
     padding: 10px;
     margin: 0px;
     color: white;
-    background-image:linear-gradient(to top,#1a3029,#3F5E5A,#3C7261, #3B7763, #3A7C65,#388668,#349A6F, #30AD75);)
+    background-image:linear-gradient(to top,black,  #1a4235,#3F5E5A,#3C7261, #3B7763,#388668,);
     background-attachment: fixed;
     box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
 }
@@ -33,9 +33,9 @@ p {
 main {
     background-color: #c8fff8;
     padding: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin:25px 200px 25px 200px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
+    border-radius: 20px;
 }
 
 nav {
@@ -67,7 +67,7 @@ article > aside {
 }
 
 footer {
-    background-color: black;
+    background-color: #1a3029;
     color: white;
     text-align: center;
     padding: 4px;
@@ -76,9 +76,30 @@ footer {
 
 footer > p {
     margin: 0px;
+    background-color: #1a3029;
 }
 
 img {
     display: block;
     margin: auto;    
+}
+
+.container {
+    background-image: url(pacote-projeto-d010/imagens/html_css_js.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+    background-image: url('horizontal-image.jpg');
+    }
+}
+
+#vid {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    background-color: #1a3029;
 }
