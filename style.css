@@ -7,16 +7,17 @@ border: 0px;
 
 header {
     background-color: #388668;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     padding: 10px;
     margin: 0px;
     color: white;
-    background-image:linear-gradient(to top,black,  #1a4235,#3F5E5A,#3C7261, #3B7763,#388668,);
-    background-attachment: fixed;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
+    background-image:linear-gradient(to bottom, #3A7C65,#3C7261, rgba(0, 0, 0, 0.753));)background-attachment: fixed;
+    
 }
 
 h1, h4 {
-    text-align: center;
+    text-align: center; 
 }
 
 p {
