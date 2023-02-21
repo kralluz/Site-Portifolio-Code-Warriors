@@ -16,8 +16,16 @@ header {
     
 }
 
-h1, h4 {
+h1, h4{
     text-align: center; 
+}
+
+h2{
+    background-color: #388668;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0px;padding: 0px;
+    color: white;
 }
 
 p {
