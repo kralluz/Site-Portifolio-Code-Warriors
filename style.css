@@ -1,12 +1,9 @@
 @charset "utf-8";
 
-@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,700&display=swap'););
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
 
-@font-face {
-    font-family: 'Warriors';
-    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
-    font-weight: normal;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@200&family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
 
 :root {
     --cor0:#65BFA3;
@@ -15,14 +12,15 @@
     --cor3:#9FBFB5;
     --cor4:#224036;
 
-    --font-padrão:'Roboto Mono', monospace;
-    --font-destaque:arial,verdana,Helvetica,sans-serif;
-    --font-android:'Android', cursive;
+    --font-padrao:'Roboto Mono', monospace;
+    --font-destaque:'Labrada',monospace;
+    --font-Warriors:'Warriors', cursive;
 }
 
 
 
-body { font-family:--font-destaque;
+body { 
+    font-family:var(--font-destaque);
 background-color: #3F5E5A;
 margin: 0px;
 padding: 0px;
@@ -30,19 +28,21 @@ border: 0px;
 }
 
 header {
+    font-family: var(--font-Warriors)
     background-color: #388668;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     padding: 10px;
     margin: 0px;
     color: white;
-    background-image:linear-gradient(to bottom, #3A7C65,#3C7261, rgba(0, 0, 0, 0.753));)background-attachment: fixed;
-    
-}
+    background-image:linear-gradient(to bottom, #3A7C65,#3C7261, rgba(0, 0, 0, 0.753));
+    )
+    background-attachment: fixed;
+    }
 
 h1, h4{
     text-align: center; 
-    padding-left: ;
+    font-family: var(--font-Warriors);
 }
 
 h1, h4, h2 {
